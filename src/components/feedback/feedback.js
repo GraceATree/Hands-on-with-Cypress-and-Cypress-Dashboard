@@ -42,6 +42,7 @@ export default class Feedback extends Component {
                             <div className="radio-check">
                                 <label className="label-75">
                                     <input
+                                        data-qa="happy-button"
                                         type="radio"
                                         name="mood"
                                         value="happy"
@@ -85,7 +86,7 @@ export default class Feedback extends Component {
                         </div>
                         <div className="row-25">
                             <div className="col-25">
-                                <input type="submit" value="Submit"/>
+                                <input data-qa="submit-button" type="submit" value="Submit"/>
                             </div>
                         </div>
                     </form>
