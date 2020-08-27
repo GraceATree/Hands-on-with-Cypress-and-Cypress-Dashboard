@@ -11,5 +11,4 @@ describe('CI test', () => {
     //Write tests for different behaviour scenarios 
     //For example can you enter text into the comments section
     // - What kind of text is allowed?
-
 });
